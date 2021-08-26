@@ -10,6 +10,15 @@
     margin: 5rem;
 }
 
+h1{
+    background-color: blueviolet;
+    width: 40%;
+    margin: auto;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 #stock-form > label{
     display: block;
     font-size: 2rem;
@@ -44,6 +53,9 @@
 }
 
 @media screen and (max-width:600px){
+    h1{
+        width: 80%;
+    }
     #stock-form >input{
         font-size: 1.2rem;
         padding: 0.2rem;
@@ -55,8 +67,12 @@
 }
 
 @media screen and (max-width:400px){
+    h1{
+        width: 90%;
+        font-size: 25px;
+    }
     #stock-form >input{
-        font-size: 1.2rem;
+        font-size: 25px;
         padding: 0.2rem;
         width: 100%;
         border-radius: 0.5rem;
